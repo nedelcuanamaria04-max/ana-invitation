@@ -51,11 +51,6 @@ function rsvp(){
     return;
   }
 
-  if(!RSVP_ENDPOINT || RSVP_ENDPOINT === "PUNE_AICI_URL_UL_GOOGLE_APPS_SCRIPT"){
-    msg.textContent = 'Invitația este gata, dar mai trebuie conectată la lista de confirmări.';
-    return;
-  }
-
   button.disabled = true;
   button.textContent = 'SE TRIMITE...';
 
@@ -74,4 +69,3 @@ function rsvp(){
   });
 }
 </script>
-</body></html>
